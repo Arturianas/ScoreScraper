@@ -93,3 +93,6 @@ export const getNbaScores = async (req: Request, res: Response) => {
     return res.status(500).send("An unknown error occurred.");
   }
 };
+
+
+export * from "./getNbaScores";
